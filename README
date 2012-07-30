@@ -1,0 +1,16 @@
+CDBStore -- a fast 'n' simple persistent storage library for Cocoa
+
+Author: 
+        Jens Alfke <jens@mooseyard.com>
+        Incorporates tinycdb library by Michael Tokarev <http://www.corpit.ru/mjt/tinycdb.html>
+
+License: 
+        BSD (and tinycdb is public-domain)
+
+Requirements:
+        Mac OS X 10.5 or later (Objective-C 2.0)
+        Xcode 3.0
+        Generating the documentation requires Doxygen <http://doxygen.org>
+
+Status:
+        Pre-alpha. Has not been seriously tested, or used in any shipping products yet.

@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		279C99A50D80638B006EAD14 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 279C99A80D8063A9006EAD14 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				279C99A40D80638B006EAD14 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		271B44990D5C13850055C616 /* CDBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 271B44950D5C13850055C616 /* CDBFile.h */; };
+		271B449A0D5C13850055C616 /* CDBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 271B44960D5C13850055C616 /* CDBFile.m */; };
+		271B449B0D5C13850055C616 /* CDBStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 271B44970D5C13850055C616 /* CDBStore.h */; };
+		271B449C0D5C13850055C616 /* CDBStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 271B44980D5C13850055C616 /* CDBStore.m */; };
+		271B44C90D5C142F0055C616 /* cdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 271B44A60D5C142F0055C616 /* cdb.h */; };
+		271B44CA0D5C142F0055C616 /* cdb_find.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44A70D5C142F0055C616 /* cdb_find.c */; };
+		271B44CB0D5C142F0055C616 /* cdb_findnext.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44A80D5C142F0055C616 /* cdb_findnext.c */; };
+		271B44CC0D5C142F0055C616 /* cdb_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44A90D5C142F0055C616 /* cdb_hash.c */; };
+		271B44CD0D5C142F0055C616 /* cdb_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44AA0D5C142F0055C616 /* cdb_init.c */; };
+		271B44CE0D5C142F0055C616 /* cdb_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 271B44AB0D5C142F0055C616 /* cdb_int.h */; };
+		271B44CF0D5C142F0055C616 /* cdb_make.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44AC0D5C142F0055C616 /* cdb_make.c */; };
+		271B44D00D5C142F0055C616 /* cdb_make_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44AD0D5C142F0055C616 /* cdb_make_add.c */; };
+		271B44D10D5C142F0055C616 /* cdb_make_put.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44AE0D5C142F0055C616 /* cdb_make_put.c */; };
+		271B44D20D5C142F0055C616 /* cdb_seek.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44AF0D5C142F0055C616 /* cdb_seek.c */; };
+		271B44D30D5C142F0055C616 /* cdb_seq.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44B00D5C142F0055C616 /* cdb_seq.c */; };
+		271B44D40D5C142F0055C616 /* cdb_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 271B44B10D5C142F0055C616 /* cdb_unpack.c */; };
+		271B44FE0D5C1C530055C616 /* CDBStore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 271B44FD0D5C1C530055C616 /* CDBStore_Prefix.pch */; };
+		271B45080D5C1E620055C616 /* CDBFileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 271B45070D5C1E620055C616 /* CDBFileTest.m */; };
+		271B450D0D5C1F360055C616 /* libCDBStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libCDBStore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		271B45180D5C1FC70055C616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CDBStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		271B44950D5C13850055C616 /* CDBFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBFile.h; sourceTree = "<group>"; };
+		271B44960D5C13850055C616 /* CDBFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBFile.m; sourceTree = "<group>"; };
+		271B44970D5C13850055C616 /* CDBStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBStore.h; sourceTree = "<group>"; };
+		271B44980D5C13850055C616 /* CDBStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBStore.m; sourceTree = "<group>"; };
+		271B44A60D5C142F0055C616 /* cdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdb.h; sourceTree = "<group>"; };
+		271B44A70D5C142F0055C616 /* cdb_find.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_find.c; sourceTree = "<group>"; };
+		271B44A80D5C142F0055C616 /* cdb_findnext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_findnext.c; sourceTree = "<group>"; };
+		271B44A90D5C142F0055C616 /* cdb_hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_hash.c; sourceTree = "<group>"; };
+		271B44AA0D5C142F0055C616 /* cdb_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_init.c; sourceTree = "<group>"; };
+		271B44AB0D5C142F0055C616 /* cdb_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdb_int.h; sourceTree = "<group>"; };
+		271B44AC0D5C142F0055C616 /* cdb_make.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_make.c; sourceTree = "<group>"; };
+		271B44AD0D5C142F0055C616 /* cdb_make_add.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_make_add.c; sourceTree = "<group>"; };
+		271B44AE0D5C142F0055C616 /* cdb_make_put.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_make_put.c; sourceTree = "<group>"; };
+		271B44AF0D5C142F0055C616 /* cdb_seek.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_seek.c; sourceTree = "<group>"; };
+		271B44B00D5C142F0055C616 /* cdb_seq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_seq.c; sourceTree = "<group>"; };
+		271B44B10D5C142F0055C616 /* cdb_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdb_unpack.c; sourceTree = "<group>"; };
+		271B44ED0D5C1BC00055C616 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B44FD0D5C1C530055C616 /* CDBStore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBStore_Prefix.pch; sourceTree = "<group>"; };
+		271B45070D5C1E620055C616 /* CDBFileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDBFileTest.m; path = Classes/CDBFileTest.m; sourceTree = "<group>"; };
+		279C99850D805C38006EAD14 /* MainDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDocs.h; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libCDBStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCDBStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271B44EB0D5C1BC00055C616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B450D0D5C1F360055C616 /* libCDBStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libCDBStore.a */,
+				271B44ED0D5C1BC00055C616 /* Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CDBStore */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				271B44A00D5C142F0055C616 /* tinycdb-0.76 */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = CDBStore;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271B44950D5C13850055C616 /* CDBFile.h */,
+				271B44960D5C13850055C616 /* CDBFile.m */,
+				271B44970D5C13850055C616 /* CDBStore.h */,
+				271B44980D5C13850055C616 /* CDBStore.m */,
+				279C99850D805C38006EAD14 /* MainDocs.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		271B44A00D5C142F0055C616 /* tinycdb-0.76 */ = {
+			isa = PBXGroup;
+			children = (
+				271B44A60D5C142F0055C616 /* cdb.h */,
+				271B44A70D5C142F0055C616 /* cdb_find.c */,
+				271B44A80D5C142F0055C616 /* cdb_findnext.c */,
+				271B44A90D5C142F0055C616 /* cdb_hash.c */,
+				271B44AA0D5C142F0055C616 /* cdb_init.c */,
+				271B44AB0D5C142F0055C616 /* cdb_int.h */,
+				271B44AC0D5C142F0055C616 /* cdb_make.c */,
+				271B44AD0D5C142F0055C616 /* cdb_make_add.c */,
+				271B44AE0D5C142F0055C616 /* cdb_make_put.c */,
+				271B44AF0D5C142F0055C616 /* cdb_seek.c */,
+				271B44B00D5C142F0055C616 /* cdb_seq.c */,
+				271B44B10D5C142F0055C616 /* cdb_unpack.c */,
+			);
+			path = "tinycdb-0.76";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				271B44FD0D5C1C530055C616 /* CDBStore_Prefix.pch */,
+				271B45070D5C1E620055C616 /* CDBFileTest.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B44990D5C13850055C616 /* CDBFile.h in Headers */,
+				271B449B0D5C13850055C616 /* CDBStore.h in Headers */,
+				271B44C90D5C142F0055C616 /* cdb.h in Headers */,
+				271B44CE0D5C142F0055C616 /* cdb_int.h in Headers */,
+				271B44FE0D5C1C530055C616 /* CDBStore_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		271B44EC0D5C1BC00055C616 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271B44F10D5C1BCE0055C616 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				271B44EA0D5C1BC00055C616 /* Sources */,
+				271B44EB0D5C1BC00055C616 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271B45190D5C1FC70055C616 /* PBXTargetDependency */,
+			);
+			name = Test;
+			productName = Test;
+			productReference = 271B44ED0D5C1BC00055C616 /* Test */;
+			productType = "com.apple.product-type.tool";
+		};
+		D2AAC07D0554694100DB518D /* CDBStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CDBStore" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDBStore;
+			productName = CDBStore;
+			productReference = D2AAC07E0554694100DB518D /* libCDBStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CDBStore" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* CDBStore */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* CDBStore */,
+				271B44EC0D5C1BC00055C616 /* Test */,
+				279C99A50D80638B006EAD14 /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		279C99A40D80638B006EAD14 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Classes/CDBStore.h",
+				"$(SRCROOT)/Classes/CDBFile.h",
+				"$(SRCROOT)/Classes/MainDocs.h",
+			);
+			outputPaths = (
+				"$(SRCROOT)/Documentation/html/index.html",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "csh -c doxygen";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271B44EA0D5C1BC00055C616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B45080D5C1E620055C616 /* CDBFileTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B449A0D5C13850055C616 /* CDBFile.m in Sources */,
+				271B449C0D5C13850055C616 /* CDBStore.m in Sources */,
+				271B44CA0D5C142F0055C616 /* cdb_find.c in Sources */,
+				271B44CB0D5C142F0055C616 /* cdb_findnext.c in Sources */,
+				271B44CC0D5C142F0055C616 /* cdb_hash.c in Sources */,
+				271B44CD0D5C142F0055C616 /* cdb_init.c in Sources */,
+				271B44CF0D5C142F0055C616 /* cdb_make.c in Sources */,
+				271B44D00D5C142F0055C616 /* cdb_make_add.c in Sources */,
+				271B44D10D5C142F0055C616 /* cdb_make_put.c in Sources */,
+				271B44D20D5C142F0055C616 /* cdb_seek.c in Sources */,
+				271B44D30D5C142F0055C616 /* cdb_seq.c in Sources */,
+				271B44D40D5C142F0055C616 /* cdb_unpack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		271B45190D5C1FC70055C616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* CDBStore */;
+			targetProxy = 271B45180D5C1FC70055C616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CDBStore_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CDBStore;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CDBStore_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CDBStore;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		271B44EF0D5C1BC00055C616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		271B44F00D5C1BC00055C616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				STRIP_INSTALLED_PRODUCT = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		279C99A60D80638B006EAD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Documentation;
+			};
+			name = Debug;
+		};
+		279C99A70D80638B006EAD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Documentation;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CDBStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CDBStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271B44F10D5C1BCE0055C616 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271B44EF0D5C1BC00055C616 /* Debug */,
+				271B44F00D5C1BC00055C616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279C99A80D8063A9006EAD14 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279C99A60D80638B006EAD14 /* Debug */,
+				279C99A70D80638B006EAD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
